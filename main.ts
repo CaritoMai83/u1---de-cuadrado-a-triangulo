@@ -1,66 +1,72 @@
-basic.forever(function () {
-    basic.showLeds(`
-        # # # # #
-        # . . . #
-        # . . . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . # # # #
-        # . . . #
-        # . . . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . # # #
-        . # . . #
-        # . . . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . # #
-        . . # . #
-        . # . . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . #
-        . . . # #
-        . . # . #
-        . # . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . #
-        . . . # #
-        . . # . #
-        . # # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . #
-        . . . # #
-        . . # # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . #
-        . . . # #
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . #
-        `)
-    basic.clearScreen()
-})
+basic.showLeds(`
+    # # # # #
+    # . . . #
+    # . . . #
+    # . . . #
+    # # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . # # # #
+    # . . . #
+    # . . . #
+    # . . . #
+    # # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . # # #
+    . # . . #
+    # . . . #
+    # . . . #
+    # # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . # #
+    . . # . #
+    . # . . #
+    # . . . #
+    # # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . . #
+    . . . # #
+    . . # . #
+    . # . . #
+    # # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . . .
+    . . . . #
+    . . . # #
+    . . # . #
+    . # # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . #
+    . . . # #
+    . . # # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . #
+    . . . # #
+    `)
+basic.pause(30)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . #
+    `)
+basic.clearScreen()
